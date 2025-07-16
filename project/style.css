@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#firstSection{
+    
+    background-color: black;
+    height: 720px;
+    width: 100vw;
+    color: white;
+}
+
+#firstSectionHeader{
+    display: flex;
+    flex-direction: column;
+    width: 1,027px;
+    height: 73px;
+}
+
+#headerContent{
+    display: flex;
+    width: 530px;
+    height: 24px;
+    margin-top: 36px;
+    margin-left: 202px;
+}
+
+#logo{
+    width: 207px;
+    height: 73px;
+}
+
+.logoNaTrilha{
+    width: 187.17px;
+    height: 53;
+}
+
+#optionsButton{
+    width: 820px;
+    display: flex;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+}
+
+.options > ul{
+    width: 530px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.options > ul > li{
+    width: 78px;
+    width: 24px;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.buttonContactMe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 182px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: #12d27c;
+    color: black;
+    margin-left: 38px;
+}
+
+.contactButton{
+    font-size: 18px;
+    background-color: #12d27c;
+    border: none;
+}
+
+#firstSectionContent{
+    display: flex;
+
+    width: 1038px;
+    height: 438px;
+    margin-top: 222px;
+    margin-left: 209px;
+}
+
+#leftContentText{
+
+
+}
+
+.titleLeftText > h2{
+    width: 489px;
+    height: 200px;
+    font-size: 42px;
+}
+
+.titleLeftText > p{
+    width: 525px;
+    height: 130px;
+    color: #ffffff;
+}
+
+.titleLeftText > button{
+    width: 257px;
+    height: 58px;
+    background-color: #12d27c;
+    border-radius: 64px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#rightContentImg{
+    width: 389.45px;
+    height: 384.99px;
+    display: flex;
+
+}
+
+.rightContentImg{
+    width: 389.45px;
+    height: 384.99px;
+    border-radius: 35.67px;
+    margin-top: 16px;
+    z-index: 1;
+    position: absolute;
+}
+
+.rectangle{
+    width: 389.52px;
+    height: 384.53px;
+    z-index: 0;
+    position: relative;
+    margin-left: 60.48px;
+    transform:rotate(5.99deg);
+    opacity: 1;
+    border-radius: 35.67px;
+    background: linear-gradient(#51850C, #A8FF36 ) ;
+
+}
