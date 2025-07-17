@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
+}
+
+body{
+    width: 100%;
+    height: 100%;
 }
 
 #firstSection{
@@ -86,7 +93,7 @@
 
     width: 1038px;
     height: 438px;
-    margin-top: 222px;
+    margin-top: 100px;
     margin-left: 209px;
 }
 
@@ -143,4 +150,157 @@
     border-radius: 35.67px;
     background: linear-gradient(#51850C, #A8FF36 ) ;
 
+}
+
+#secondSection{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    background-color: rgb(214, 213, 213);
+}
+
+#leftContentImg{
+    width: 468px;
+    height: 446px;
+
+}
+
+#leftContentImg > img{
+    width: 468px;
+    height: 446px;
+    border-radius: 24px;
+}
+
+#rightContentText{
+
+
+}
+
+#rightContentText > h2{
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+#rightContentText > p{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+#rightContentText > button{
+    width: 254px;
+    height: 58px;
+    background-color: #12d27c;
+    border-radius: 64px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    margin-top: 16px;
+    gap: 8px;
+}
+
+#thirdSection{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #000000;
+}
+
+#thirdSectionContent{
+    width: 1020px;
+    display: flex;
+    flex-direction: column;
+}
+
+.thirdSectionTitle{
+    width: 100%;
+    height: 27px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-bottom: 40px;
+    font-family: "Poppins", sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+
+
+#cardsImg{
+    width: 350.83px;
+    height: 456.13px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+    
+}
+
+#thirdSectionCards{
+    width: 690.72px;
+    height: 456.13px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.thirdSectionCard{
+    padding: 15px;
+    width: 336.63px;
+    height: 216.34px;
+    background-color: white;
+    border-radius: 20.85px;
+    
+}
+
+.thirdSectionCard > svg{
+    width: 52.13px;
+    height: 52.13px;
+    background-color: #000000;
+    border-radius: 34.75px;
+    fill: #A8FF36;
+}
+
+
+
+.thirdSectionCard > h2 {
+    color: #000000;
+
+}
+
+.thirdSectionCard > p {
+    color: #000000;
+
+}
+
+.rectangleDiv{
+    width: 283.24px;
+    height: 10.43px;
+    background-color: #f5f5f5;
+    display: flex;
+}
+
+.rectangleThirdSection{
+    width: 169.42px;
+    height: 10.43px;
+    background-color: #A8FF36;
+    border-radius: 52.13px;
+
+}
+
+#thirdSectionImg > img{
+    width: 305.83px;
+    height: 453.13px;
+    border-radius: 20.85px;
 }
