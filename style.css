@@ -6,9 +6,11 @@
     box-sizing: border-box;
 
 }
-html, body {
+
+html,body{
     overflow-x: hidden;
 }
+
 
 body{
     width: 100%;
