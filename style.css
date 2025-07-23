@@ -29,7 +29,7 @@ body{
 #firstSectionHeader{
     display: flex;
     flex-direction: column;
-    width: 1.027px;
+    width: 100% ;
     height: 73px;
 }
 
