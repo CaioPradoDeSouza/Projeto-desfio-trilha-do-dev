@@ -171,7 +171,7 @@ body{
 
 #secondSection{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -225,7 +225,7 @@ body{
 
 #thirdSection{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -241,7 +241,7 @@ body{
 }
 
 .thirdSectionTitle{
-    width: 100vw;
+    width: 1020px;
     height: 27px;
     text-align: center;
     padding: 10px;
@@ -251,9 +251,8 @@ body{
     font-style: medium;
     font-weight: 500;
     font-size: 36px;
+    
 }
-
-
 
 #cardsImg{
     width: 350.83px;
@@ -770,7 +769,7 @@ body{
 
 #secondSection{
     width: 100%;
-    min-height: 100vh;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -825,7 +824,7 @@ body{
 
 #thirdSection{
     width: 400px;
-    height: 1000px;
+    height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -835,7 +834,7 @@ body{
 
 #thirdSectionContent{
     width: 400px;
-    height: 1000px;
+    height: 1100px;
     display: flex;
     flex-direction: column;
 }
@@ -942,7 +941,7 @@ body{
 
 #fourthSectionContent{
     width: 100%;
-    height: 644px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -952,18 +951,26 @@ body{
 
 
 #fourthSectionTitle{
-    width: 1013px;
+    width: 400px;
     height: 37px;
     display: flex;
     font-size: 32px;
     font-weight: 500;
     font-family: "Poppins",sans-serif;
     margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .fourthSectionimgs{
-    width: 1013px;
-    height: 600px;
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .imgFourthSection{
@@ -975,16 +982,17 @@ body{
 
 #fifthSection{
     width: 100%;
-    min-height: 95%;
+    height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
+
 
 }
 
 #fifthSectionContent{
     width: 100%;
-    height: 910.74px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     font-family: "poppins",sans-serif;
@@ -995,17 +1003,20 @@ body{
 }
 
 #fifthSectionTitle{
-    width: 100%;
+    width: 350px;
     text-align: center;
     font-size: 32px;
     line-height: 36.9px;
     color: #000000;
-    
+    margin: 20px;
 }
 
 #fifthSectionForm{
-    width: 1013px;
-    height: 781px;
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #f5f5f5;
     padding: 22.14px;
     border-radius: 22.14px;
@@ -1014,9 +1025,12 @@ body{
 }
 
 .formOptions{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 390px;
+    padding: 10px;
     margin-top: 15px;
 }
 
@@ -1026,8 +1040,8 @@ body{
 }
 
 .formOption{
-    width: max-content;
-    height: 100.35px;
+    width: 200px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1058,7 +1072,7 @@ body{
 }
 
 .budgetRange > input{
-    width: 220px;
+    width: 150px;
     height: 54.28px;
     border: 0.92px solid #EBEBEB;
     border-radius: 11.07px;
@@ -1070,17 +1084,18 @@ body{
 }
 
 .formOption > input{
-    width: 487px;
+    width: 207px;
     height: 54.28px;
     border: none;
 }
 
 .formDescribe{
+    width: 390px;
     gap: 10px;
 }
 
 .formDescribe > textarea{
-    width: 969.35px;
+    width: 390.35px;
     height: 338.57px;
     background-color: #ffffff;
     border-radius: 11.07px;
@@ -1102,7 +1117,7 @@ body{
 
 #sixtSection{
     width: 100%;
-    min-height: 95%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1110,25 +1125,35 @@ body{
     gap: 50px;
     font-family: "Poppins",sans-serif;
     margin-bottom: 70px;
+    margin-top: 30px;
 }
 
 .sixtSectionTitle{
-    font-size: 32px;
+    width: 300px;
+    font-size: 22px;
     font-weight: 600;
     line-height: 40px;
 }
 
 .cardSixtSectionContent{
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 250px;
     border: 0.91px solid #EBEBEB;
     border-radius: 21.86px;
     padding: 18.21px;
-    height: 80.43px;
+    height: 120.43px;
     margin-top: 15px;
 
 }
 
 #sixtSectionContent{
-    width: max-content;
+    width: 390px;
+}
+
+.sixtSectionTitle{
+    width: 390px;
 }
 
 .hidden{
@@ -1141,41 +1166,45 @@ body{
 }
 
 .titleButton{
-    width: 1020px;
+    width: 390px;
     height: 43px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 15px;
+}
 
+.titleButton >button{
+    display: none;
 }
 
 .buttonArr {
+    display: flex;
     width: 43.71px;
     height: 43.71px;
     border-radius: 36.43px;
-    background-color: black;
+    background-color: rgb(243, 238, 238);
 }
-
 
 
 .sixtSectionContentTitle{
-
-
+    width: 300px;
 }
 
 .sixtSectionContentText{
-
+    gap: 10px;
 
 }
 
 .active{
     background-color: black;
     color: #ffffff;
-    height: 163.07px;
+    height: 303.07px;
+    
 }
 
 #footer{
     width: 100%;
-    min-height: 95%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     padding: 100px;
@@ -1186,7 +1215,7 @@ body{
 
 #footerContent{
     width: 100%;
-    height: 300px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -1196,19 +1225,21 @@ body{
     font-family: "Poppins",sans-serif;
     font-size: 24px;
     font-weight: bold;
-    width: 520px;
+    width: 100%;
 }
 
 .footerContentText{
     font-family: "Poppins",sans-serif;
     font-size: 14px;
     font-weight: 400;
-    width: 520px;
+    width: 100%;
     line-height: 20px;
+    display: flex;
+    align-items: flex-start;
 }
 
 .footerContentIcons{
-    width: 264px;
+    width: 100%;
     gap: 24px;
     display: flex;
 }
@@ -1218,18 +1249,23 @@ body{
 }
 
 #footerFinal{
-    width: 1090px;
-    height: 64px;
+    width: 300px;
+    height: fit-content;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 19px;
 }
 
 .footerFinalContent{
-    width: 1090px;
+    width: 100%;
+    height: fit-content;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    
 }
 
 }
